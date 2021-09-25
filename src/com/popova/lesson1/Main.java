@@ -1,4 +1,4 @@
-package com.popova;
+package com.popova.lesson1;
 
 public class Main {
 
