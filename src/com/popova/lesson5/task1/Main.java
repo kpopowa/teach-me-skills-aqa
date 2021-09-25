@@ -5,6 +5,6 @@ public class Main {
 
         Person person = new Person("Kristina", "Popowa");
 
-        System.out.println(person.getFullName());
+        System.out.println(person);
     }
 }

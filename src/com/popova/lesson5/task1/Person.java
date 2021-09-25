@@ -10,8 +10,12 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public String getFullName(){
-        return name + " " +  lastName;
-    }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 }
