@@ -17,5 +17,10 @@ public class Main {
         System.out.println(worker2);
         System.out.println(worker3);
         System.out.println(director);
+
+        director.addWorker(worker1);
+        director.addWorker(worker2);
+
+        System.out.println(director);
     }
 }
