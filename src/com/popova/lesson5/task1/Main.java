@@ -18,9 +18,14 @@ public class Main {
         System.out.println(worker3);
         System.out.println(director);
 
-        director.addWorker(worker1);
-        director.addWorker(worker2);
+        director.addEmployee(worker1);
+        director.addEmployee(worker2);
 
         System.out.println(director);
+
+        Director director2 = new Director("Andrew", "Andreew", 1);
+        director2.addEmployee(worker3);
+        director.addEmployee(director2);
+        System.out.println(director2);
     }
 }
