@@ -1,8 +1,8 @@
 package com.popova.lesson5.task1;
 
 public class Person {
-    private String name;
-    private String lastName;
+    protected String name;
+    protected String lastName;
 
 
     public Person (String name, String lastName){

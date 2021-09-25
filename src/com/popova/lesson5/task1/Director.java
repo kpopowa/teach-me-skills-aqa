@@ -7,8 +7,8 @@ public class Director extends Employee{
 
     private List<Worker> workers = new ArrayList<>();
 
-    public Director(String name, String lastName) {
-        super(name, lastName);
+    public Director(String name, String lastName, int experince) {
+        super(name, lastName, experince);
     }
 
     public void addWorker(Worker worker){
@@ -22,6 +22,6 @@ public class Director extends Employee{
 
     @Override
     public int calculationSalary(){
-        return 1000 * coefficient * experience * workers.size();
+        return 1000 * getPosition().getCoefficient() * experience * workers.size();
     }
 }
