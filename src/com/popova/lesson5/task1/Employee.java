@@ -30,8 +30,7 @@ public abstract class Employee extends Person {
 
     @Override
     public String toString() {
-        return name + " " + lastName + " " + calculationSalary();
-
+        return name + " " + lastName + " " + calculationSalary() + " " + experience;
     }
 
 }

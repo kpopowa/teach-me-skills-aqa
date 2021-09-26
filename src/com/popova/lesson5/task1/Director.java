@@ -15,12 +15,6 @@ public class Director extends Employee{
         employees.add(employee);
     }
 
-
-
-    public void addWorkers(List<Worker> workers){
-        workers.addAll(workers);
-    }
-
     @Override
     public Position getPosition() {
         return Position.DIRECTOR;
@@ -29,5 +23,10 @@ public class Director extends Employee{
     @Override
     public int calculationSalary(){
         return 1000 * getPosition().getCoefficient() * experience * employees.size();
+    }
+
+    @Override
+    public String toString(){
+        return "Name: " + name + " " + lastName + " " + calculationSalary() + " Experience: " + experience + " Position: " + getPosition() + " Emploees: " + employees ;
     }
 }

@@ -27,5 +27,6 @@ public class Main {
         director2.addEmployee(worker3);
         director.addEmployee(director2);
         System.out.println(director2);
+        System.out.println(director);
     }
 }
