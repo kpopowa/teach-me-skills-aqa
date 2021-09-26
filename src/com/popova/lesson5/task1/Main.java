@@ -7,9 +7,9 @@ public class Main {
 
         System.out.println(person);
 
-        Worker worker1 = new Worker("Ivan", "Ivanov" , 2);
-        Worker worker2 = new Worker("Petr", "Petrov", 3);
-        Worker worker3 = new Worker("Egor", "Egorow", 4);
+        Employee worker1 = new Worker("Ivan", "Ivanov" , 2);
+        Employee worker2 = new Worker("Petr", "Petrov", 3);
+        Employee worker3 = new Worker("Egor", "Egorow", 4);
 
         Director director = new Director("Sergey", "Sergeew", 3);
 
