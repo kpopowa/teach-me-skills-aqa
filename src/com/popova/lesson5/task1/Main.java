@@ -28,5 +28,9 @@ public class Main {
         director.addEmployee(director2);
         System.out.println(director2);
         System.out.println(director);
+
+        IEmployeeRepository iEmployeeRepository = new EmployeeRepositoryImpl();
+        Employee employee = iEmployeeRepository.findEmployeeByName(director, "ivan");
+        System.out.println(employee);
     }
 }

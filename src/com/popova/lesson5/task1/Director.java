@@ -15,6 +15,11 @@ public class Director extends Employee{
         employees.add(employee);
     }
 
+    public List<Employee> getEmployees(){
+        return employees;
+
+    }
+
     @Override
     public Position getPosition() {
         return Position.DIRECTOR;
